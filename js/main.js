@@ -134,7 +134,10 @@
 		$(".fh5co-loader").fadeOut("slow");
 	};
 
-	
+	var alerter = function() {
+		$(".fh5co-loader").fadeOut("slow");
+	};
+
 	$(function(){
 		contentWayPoint();
 		goToTop();
@@ -143,6 +146,7 @@
 		parallax();
 		// pieChart();
 		skillsWayPoint();
+		alerter();
 	});
 
 
