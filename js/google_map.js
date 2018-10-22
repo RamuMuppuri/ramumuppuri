@@ -13,7 +13,7 @@ function initialize() {
         var map = new google.maps.Map(document.getElementById("googlemap"), mapOptions);
 
         var locations = [
-            ['Baton Rouge', 30.4515, -91.2515038, 
+            ['I am Here <br/> Ramu Muppuri <br/> Baton Rouge, LA', 30.4515, -91.2515038, 
             iconbase+ 'green-dot.png', 'Click Me to Zoom']
         ];
     
